@@ -1,0 +1,25 @@
+/* debug */
+/*
+* {
+  border: 1px solid lightsalmon;
+}
+*/
+
+body {
+    padding: 0 5%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: auto;
+}
