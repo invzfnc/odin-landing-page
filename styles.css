@@ -12,7 +12,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-nav, .intro-content {
+nav, .intro-content, .info-content {
     max-width: 1000px;
     margin: 50px auto;
 }
@@ -89,4 +89,40 @@ nav ul li a {
     color: #f9faf8;
     align-content: center;
     text-align: center;
+}
+
+/* info section */
+.info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info-header {
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-details {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-detail {
+    width: 150px;
+}
+
+.info-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 3px #3882f6 solid;
+}
+
+.info-description {
+    text-align: center;
+    color: #1f2937;
 }
