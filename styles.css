@@ -6,11 +6,14 @@
 */
 
 body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
     font-family: "Roboto", sans-serif;
 }
 
 nav, .intro-content {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
