@@ -9,7 +9,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-nav, .intro {
+nav, .intro-content {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -41,4 +41,39 @@ nav ul li a {
     font-weight: bold;
     font-size: 24px;
     color: #f9faf8;
+}
+
+.intro {
+    background-color: #1f2937;
+}
+
+.text-tagline {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.text-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button-signup {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.image-placeholder {
+    width: 100px;  /* temp */
+    height: 100px; /* temp */
+    background-color: grey;
+    color: #f9faf8;
+    align-content: center;
+    text-align: center;
 }
