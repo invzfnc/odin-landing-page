@@ -18,7 +18,7 @@ nav, .intro-content, .info-content {
 }
 
 /* navigation bar */
-.navbar {
+.nav-section {
     background-color: #1f2937;
 }
 
@@ -46,6 +46,10 @@ nav ul li a {
 }
 
 /* intro section */
+.intro-section {
+    background-color: #1f2937;
+}
+
 .intro-content {
     display: flex;
     gap: 30px;
@@ -53,10 +57,6 @@ nav ul li a {
 
 .intro-left, .intro-right {
     flex: 1;  /* divides half-half */
-}
-
-.intro {
-    background-color: #1f2937;
 }
 
 .text-tagline {
