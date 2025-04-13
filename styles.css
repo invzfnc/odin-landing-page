@@ -107,6 +107,7 @@ nav ul li a {
 
 .info-details {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
