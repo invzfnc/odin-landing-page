@@ -127,3 +127,27 @@ nav ul li a {
     text-align: center;
     color: #1f2937;
 }
+
+/* quote section */
+.quote-section {
+    background-color: #e6e7eb;
+}
+
+.quote-content {
+    /* aligns with info boxes from section above
+     * 150px * 4 (content) + 50px * 3 (gap) + 3px * 8 (border) = 774px;
+     */
+    max-width: 774px;
+    margin: 100px auto;
+}
+
+.the-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-by {
+    font-weight: bold;
+    text-align: end;
+}
