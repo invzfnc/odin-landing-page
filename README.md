@@ -4,7 +4,7 @@ This is for an [assignment](https://www.theodinproject.com/lessons/foundations-l
 
 This project aims to recreate this webpage screenshot shown below using HTML and CSS:
 
-<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png" height="700" width="auto">
+![landing page design](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
 ## Usage
 Simply open the GitHub pages link, or clone this repository and open `index.html` using any browser.
