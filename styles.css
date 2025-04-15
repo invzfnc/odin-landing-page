@@ -12,7 +12,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-nav, .intro-content, .info-content {
+nav, .intro-content, .info-content, .signup-content{
     max-width: 1000px;
     margin: 50px auto;
 }
@@ -150,4 +150,40 @@ nav ul li a {
 .quote-by {
     font-weight: bold;
     text-align: end;
+}
+
+/* signup section */
+.signup-content {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    height: 150px;
+}
+
+.signup-left {
+    flex: 2;
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-prompt p {
+    margin: 3px;
+}
+
+.prompt-top {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.signup-content button {
+    border: 3px solid white;
 }
